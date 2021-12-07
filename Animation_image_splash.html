@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+    <head>
+<style>
+header{
+    height: 330px;
+    width:330px;
+    background-color: pink;
+}
+ @keyframes slide1{
+    0%{
+        transform: translate(0vw);
+    }
+    100%{
+transform: translate(85vw);
+    }
+}
+@keyframes slide2{
+    0%{
+        transform: translate(0vw);
+    }
+    100%{
+transform: translate(85vw);
+    }
+}
+@keyframes slide3{
+    0%{
+        transform: translate(0vw);
+    }
+    100%{
+transform: translate(85vw);
+    }
+}
+.slider
+{
+
+    height: 553px;
+    overflow: hidden;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+
+}
+.img1{
+    transform: translateX(-8vw);
+animation:slide1 4s 6s infinite ;
+}
+
+.img2{
+    transform: translateX(0vw);
+    animation:slide2 4s 6s  infinite ;
+}
+
+.img3{
+    transform: translateX(8vw);
+    animation:slide3 4s 6s infinite  ;
+}
+
+</style>
+    </head>
+    <body>
+<header>
+
+</header>
+<div class="slider">
+    <img class="img1" src="book2.jpg" alt="pic1" width="400px" height="400px">
+    <img class="img2" src="flower2.png" alt="pic2" width="400px" height="400px">
+    <img class="img3" src="hbl.png" alt="pic3" width="400px" height="400px">
+
+</div>
+</body>
+</html>
